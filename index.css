@@ -1,0 +1,58 @@
+.header{
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{ 
+    padding-top: 10px;
+    margin: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+
+}
+.location{
+    color: white;
+}
+.address{
+    color: white;
+    flex-grow: 2;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.search{
+    color: white;
+    padding: 3px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-grow: 7;
+}
+.country{
+    color: white;
+    flex-grow: 1;
+    padding: 3px;
+    display: flex;
+}
+.account{
+    color: white;
+    flex-grow: 1;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.orders{
+    color: white;
+    flex-grow: 2;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.cart{
+    color: white;
+    flex-grow: 1;
+    padding: 3px;
+}
